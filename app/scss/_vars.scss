@@ -1,0 +1,57 @@
+ $white: #fff;
+ $black: #000;
+ $gold: #D59D40;
+ $darkgray: #464646;
+ $gray: #BEBEBE;
+ $lightgray: #F0F0F0;
+
+ // font-family: 'Baskervville', serif;
+ // font-family: 'Lato', sans-serif;
+ // font-family: 'Parisienne', cursive;
+
+ %h1 {
+   font-size: 188px;
+   line-height: 202px;
+ }
+
+ %h2 {
+   font-size: 170px;
+   line-height: 170px;
+ }
+
+ %h3 {
+   font-size: 41px;
+   line-height: 56px;
+   font-weight: 400;
+   font-family: 'Lato', sans-serif;
+ }
+
+ %h4 {
+   font-family: 'Baskervville', serif;
+   font-size: 30px;
+   line-height: 34px;
+ }
+
+ %contactus {
+   font-size: 31px;
+   line-height: 42px;
+   font-family: 'Lato', sans-serif;
+ }
+
+ %text {
+   font-family: 'Baskervville', serif;
+   font-size: 28px;
+   line-height: 126.6%;
+ }
+
+ %text-italic {
+   font-family: 'Baskervville', cursive;
+   font-size: 24px;
+   line-height: 107.1%;
+ }
+
+ %small-text {
+   font-family: 'Baskervville', serif;
+   font-size: 22px;
+   line-height: 113.6%;
+ }

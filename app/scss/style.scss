@@ -4,4 +4,206 @@
 @import 'libs';
 @import 'global';
 
+.header {
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    padding: 17px 0px 9px;
+    color: $darkgray;
+    @extend %contactus;
 
+    a {
+      color: $darkgray;
+    }
+  }
+
+  &__image {
+    background-image: url(../images/header-bg.png);
+    z-index: 10;
+    background-size: cover;
+    background-position: center;
+  }
+
+  &__image-img {
+    background-position: center center;
+    background-size: cover;
+
+  }
+
+  .menu {
+
+    &__list {
+      display: flex;
+      justify-content: space-between;
+      padding: 25px 0;
+    }
+
+    &__list-item {
+      font-family: 'Baskervville',
+        serif;
+      font-size: 25px;
+      line-height: 29px;
+
+
+
+    }
+
+    &__item-link {
+      color: $darkgray;
+      transition: all .5s;
+
+      &:hover {
+        color: $gold;
+      }
+    }
+  }
+
+
+}
+
+.header__inner {
+  background-color: #0D0A09;
+}
+
+// features section start
+.features {
+  margin-bottom: -8px;
+
+  &__inner {
+    position: absolute;
+    top: 72px;
+    right: 171px;
+
+  }
+
+  &__inner-info {
+    max-width: 1046px;
+    width: 100%;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 81px;
+  }
+
+  &__info-title {
+    @extend %h1;
+    white-space: nowrap;
+  }
+
+  &__info-subtitle {
+    @extend %h3;
+    margin-bottom: 30px;
+  }
+
+  &__info-text {
+    text-align: center;
+    max-width: 565px;
+    font-size: 28px;
+    line-height: 110.6%;
+    letter-spacing: 0.025em;
+
+    span {
+      font-weight: bold;
+    }
+  }
+
+  &__inner-box {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    right: -171px;
+  }
+
+  &__box-list {
+    margin-right: 41px;
+    padding: 64px;
+    border-right: 3px solid #D59D40;
+  }
+
+
+  &__box-item {
+    margin-bottom: 24px;
+    text-align: right;
+    color: $gold;
+    font-size: 21px;
+    line-height: 24px;
+    letter-spacing: 0.06em;
+
+    &:last-child {
+      margin: 0;
+    }
+  }
+
+  &__box-item--active {
+    color: $darkgray;
+  }
+
+  &__box-cutat {
+    background-color: $lightgray;
+    padding-right: 337px;
+
+  }
+
+  &__cutat-text {
+    max-width: 385px;
+    width: 100%;
+    font-style: italic;
+    padding: 77px 0 96px 24px;
+  }
+}
+
+.features-fluid {
+  position: relative;
+}
+
+// portfolio section start
+.portfolio {
+  margin-bottom: 110px;
+
+  &__inner {
+    position: absolute;
+    bottom: 43px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+
+  &__inner-text {
+    font-size: 50px;
+    line-height: 68px;
+    color: $white;
+    letter-spacing: -0.065em;
+  }
+
+  &__inner-btn {
+    border: none;
+    background-color: $gold;
+    color: $white;
+    font-size: 35px;
+    line-height: 48px;
+    font-style: italic;
+    max-width: 304px;
+    width: 100%;
+    padding: 6px 0;
+    border-radius: 5px;
+    transition: all .3s;
+
+    &:hover {
+      background-color: $lightgray;
+      color: $black;
+
+    }
+  }
+}
+
+.portfolio-fluid {
+  background-image: url(../images/portfolio-bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  height: 471px;
+  width: auto;
+  position: relative;
+}
+
+.main-button {}
