@@ -416,3 +416,111 @@
 }
 
 // faq section start
+.faq {
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__col-1 {
+    max-width: 452px;
+    width: 100%;
+    background-color: #FBF5EC;
+
+  }
+
+  &__col-1-item {
+    padding: 73px 25px 70px 24px;
+  }
+
+  &__item-info {}
+
+  &__item-title {
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 24px;
+    letter-spacing: 0.06em;
+    margin-bottom: 19px;
+    color: #D59D40;
+  }
+
+  &__item-text {
+    font-style: italic;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 114.1%;
+    letter-spacing: 0.045em;
+    margin-bottom: 40px;
+  }
+
+  &__col-2 {
+    max-width: 596px;
+    width: 100%;
+    position: relative;
+
+    &::after {
+      position: absolute;
+      content: '';
+      background: rgba(251, 245, 236, 0.5);
+      width: 596px;
+      height: 351px;
+      bottom: 0;
+      z-index: 2;
+    }
+  }
+
+  &__col-2-item {}
+
+  &__item-image {}
+
+  &__item-img {
+    position: absolute;
+    width: auto;
+    height: 1068.67px;
+    top: -153px;
+    z-index: 4;
+  }
+
+  &__item-box {
+    max-width: 313px;
+    width: 100%;
+    position: absolute;
+    bottom: 109px;
+    right: 83px;
+    z-index: 5;
+  }
+
+  &__box-title {
+    font-weight: normal;
+    font-size: 170px;
+    line-height: 170px;
+    /* identical to box height */
+
+    letter-spacing: 0.015em;
+    color: $gold;
+  }
+
+  &__box-subtitle {
+    font-size: 28px;
+    line-height: 120.4%;
+    /* identical to box height, or 34px */
+
+    letter-spacing: -0.015em;
+    text-transform: uppercase;
+    color: $gold;
+    margin-bottom: 16px;
+  }
+
+  &__box-text {
+    font-style: italic;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 114.1%;
+    /* or 25px */
+
+    letter-spacing: 0.045em;
+    width: 239px;
+    text-align: right;
+    margin-left: auto;
+  }
+}
