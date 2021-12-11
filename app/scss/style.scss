@@ -142,6 +142,8 @@
   &__box-cutat {
     background-color: $lightgray;
     padding-right: 337px;
+    height: 355px;
+    margin: auto;
 
   }
 
@@ -176,25 +178,6 @@
     letter-spacing: -0.065em;
   }
 
-  &__inner-btn {
-    border: none;
-    background-color: $gold;
-    color: $white;
-    font-size: 35px;
-    line-height: 48px;
-    font-style: italic;
-    max-width: 304px;
-    width: 100%;
-    padding: 6px 0;
-    border-radius: 5px;
-    transition: all .3s;
-
-    &:hover {
-      background-color: $lightgray;
-      color: $black;
-
-    }
-  }
 }
 
 .portfolio-fluid {
@@ -206,4 +189,230 @@
   position: relative;
 }
 
-.main-button {}
+.main-button {
+  border: none;
+  background-color: $gold;
+  color: $white;
+  font-size: 35px;
+  line-height: 48px;
+  font-style: italic;
+  max-width: 304px;
+  width: 100%;
+  padding: 6px 0;
+  border-radius: 5px;
+  transition: all .3s;
+
+  &:hover {
+    background-color: $lightgray;
+    color: $black;
+
+  }
+}
+
+// portfolio slider
+.portfolio {
+
+
+
+
+  &__slide-inner {
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+
+  &__slider-item {
+    max-width: 320px;
+    width: 100%;
+    border-right: 3px solid #D59D40;
+    padding-right: 47px;
+    height: 724px;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 53px;
+
+
+  }
+
+  &__item-title {
+    font-size: 25px;
+    line-height: 34px;
+    letter-spacing: 0.06em;
+    color: $gold;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-weight: normal;
+
+
+  }
+
+  &__item-subtitle {
+    font-size: 24px;
+    line-height: 107.1%;
+    font-style: italic;
+    text-align: right;
+    margin-bottom: 34px;
+    font-weight: normal;
+  }
+
+  &__item-text {
+    font-size: 22px;
+    line-height: 113.6%;
+  }
+
+  &__inner-info {
+    max-width: 384px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    z-index: 10;
+
+    &::after {
+      content: '';
+      position: absolute;
+      background-color: $lightgray;
+      right: 66px;
+      bottom: 120px;
+      width: 348px;
+      height: 506px;
+      z-index: -1;
+    }
+  }
+
+  &__info-title {
+    text-align: center;
+    font-size: 33px;
+    line-height: 130.6%;
+    font-weight: normal;
+    max-width: 280px;
+    width: 100%;
+  }
+
+  &__info-subtitle {
+    font-size: 24px;
+    line-height: 107.1%;
+    font-style: italic;
+    margin-bottom: 34px;
+    font-weight: normal;
+    text-transform: lowercase;
+    text-align: center;
+    max-width: 280px;
+    width: 100%;
+  }
+
+  &__info-text {
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 113.6%;
+    text-align: right;
+    max-width: 280px;
+    width: 100%;
+
+
+
+  }
+}
+
+.slick-list {
+  max-width: 1060px;
+  width: 100%;
+}
+
+.slick-arrow {
+  border: none;
+  background: none;
+  font-size: 0;
+  cursor: pointer;
+}
+
+.slick-prev {
+  position: absolute;
+  background-image: url(../images/arrows/left.png);
+  background-position: center;
+  background-size: cover;
+  left: -40px;
+  top: 50%;
+}
+
+.slick-next {
+  position: absolute;
+  background-image: url(../images/arrows/right.png);
+  background-position: center;
+  background-size: cover;
+  right: -10px;
+  top: 50%;
+}
+
+// section start 
+.packges {
+  &__inner {
+    max-width: 404px;
+    width: 100%;
+    background: rgba(244, 244, 244, 0.7);
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 344px;
+  }
+
+  &__inner-title {
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 80px;
+    letter-spacing: -0.035em;
+    margin-bottom: 2px;
+    color: $white;
+    padding-top: 94px;
+  }
+
+  &__inner-subtitle {
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    letter-spacing: 0.055em;
+    margin-bottom: 17px;
+    position: relative;
+
+    &::after {
+      position: absolute;
+      content: '';
+      background-color: $gold;
+      height: 4px;
+      width: 448px;
+      bottom: 0;
+      left: -20px;
+    }
+  }
+
+  &__inner-text {
+    font-style: italic;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 107.1%;
+    letter-spacing: 0.06em;
+    max-width: 316px;
+    margin: 0 auto 60px;
+  }
+
+  &__inner-button {
+    text-transform: uppercase;
+    max-width: 219px;
+    margin-bottom: 21px;
+  }
+}
+
+.packges-fluid {
+  position: relative;
+  background-image: url(../images/packges-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 470px;
+  margin-bottom: 164px;
+}
+
+// faq section start
