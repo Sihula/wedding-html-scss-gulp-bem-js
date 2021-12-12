@@ -787,3 +787,144 @@
     color: #464646;
   }
 }
+
+// contact us
+.contacts {
+  a {
+    display: block;
+  }
+
+  &__inner {
+    display: flex;
+    justify-content: end;
+    position: relative;
+
+    &::before {
+      position: absolute;
+      content: '';
+      width: 954px;
+      height: 345px;
+      background-color: rgba(240, 240, 240, 1);
+      z-index: -1;
+      left: -155px;
+    }
+  }
+
+  &__inner-address {
+    text-align: right;
+
+  }
+
+  &__mail {
+    margin-top: 30px;
+    margin-bottom: 56px;
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 42px;
+    letter-spacing: -0.08em;
+    color: #464646;
+  }
+
+  &__tel {}
+
+  &__inner-social {
+    margin: 0px 155px;
+
+    img {
+      background-size: cover;
+      background-position: center;
+    }
+  }
+
+  &__social-ins {
+    margin-top: 30px;
+    margin-bottom: 35px;
+  }
+
+  &__social-mail {
+    margin-bottom: 35px;
+  }
+
+  &__social-phone {}
+
+  &__inner-info {
+    max-width: 611px;
+  }
+
+  &__info-text {
+    font-size: 28px;
+    line-height: 126.6%;
+    letter-spacing: 0.015em;
+    margin-bottom: 57px;
+    color: #000000;
+  }
+
+  &__info-btn {}
+}
+
+// footer start
+.footer {
+  margin-top: 128px;
+  background-color: #F9F4EC;
+
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 76px 0;
+
+  }
+
+  &__box {}
+
+  &__box-title {
+    font-weight: 500;
+    font-size: 37px;
+    line-height: 51px;
+    margin-bottom: 31px;
+    letter-spacing: 0.015em;
+
+    color: #D59D40;
+  }
+
+  &__box-items {
+    display: flex;
+  }
+
+  &__box-item {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 29px;
+    letter-spacing: 0.015em;
+    margin-right: 43px;
+
+    a {
+      color: #D59D40;
+      margin-bottom: 15px;
+      display: block;
+    }
+  }
+}
+
+.footer {
+  &__copy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $white;
+  }
+
+  &__copy-inner {
+    padding: 75px 0 86px;
+  }
+
+  &__copy-text {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: 0.015em;
+    max-width: 522px;
+    color: #BEBEBE;
+  }
+}
