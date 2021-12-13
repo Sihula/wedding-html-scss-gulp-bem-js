@@ -420,6 +420,7 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 190px;
+    flex-wrap: wrap;
   }
 
   &__col-1 {
@@ -872,10 +873,14 @@
     display: flex;
     justify-content: space-between;
     padding: 76px 0;
+    flex-wrap: wrap;
+    justify-content: center;
 
   }
 
-  &__box {}
+  &__box {
+    margin-bottom: 30px;
+  }
 
   &__box-title {
     font-weight: 500;
@@ -889,6 +894,7 @@
 
   &__box-items {
     display: flex;
+    flex-wrap: wrap;
   }
 
   &__box-item {
@@ -928,3 +934,5 @@
     color: #BEBEBE;
   }
 }
+
+@import 'media';

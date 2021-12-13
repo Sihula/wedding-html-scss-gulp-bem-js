@@ -1,0 +1,282 @@
+@media (max-width: 1540px) {
+  .portfolio__slide-inner {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .portfolio__slider {
+    display: none;
+  }
+
+  .portfolio__inner-info::after {
+    display: none;
+  }
+
+  .portfolio__inner-info {
+    margin: 0 auto;
+    max-width: 700px;
+    align-items: center;
+  }
+
+  .portfolio__info-text {
+    max-width: 100%;
+  }
+
+  .portfolio__info-title {
+    color: $gold;
+  }
+}
+
+
+@media (max-width: 1490px) {
+  .header__top {
+    display: none;
+  }
+
+  .header__inner .container-fluid {
+    display: none;
+  }
+
+  .something__inner-items {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .something__inner-item {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 1340px) {
+  .header__menu {
+    display: none;
+  }
+
+  .features__info-title {
+    font-size: 110px;
+    line-height: 120px;
+    color: $gold;
+  }
+
+  .features__info-subtitle {
+    font-size: 32px;
+  }
+
+  .features__info-text {
+    font-size: 20px;
+  }
+
+  .features__inner {
+    right: 55px;
+    top: 20px;
+  }
+
+  .features__box-item {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+
+
+
+  .features__box-list {
+    padding: 0 30px 0;
+  }
+
+  .features__box-cutat {
+    padding-right: 30px;
+  }
+
+  .features__inner-box {
+    right: 0;
+  }
+
+  .features__box-item {
+    white-space: nowrap;
+  }
+
+  .presentation__key {
+    position: static;
+    margin: 0 auto;
+  }
+
+  .contacts__inner {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1100px) {
+  .features__box-item {
+    white-space: nowrap;
+  }
+
+  .features__cutat-text {}
+
+  .features__box-cutat {
+    padding-right: 30px;
+  }
+
+  .faq__col-2 {
+    display: none;
+
+  }
+
+  .faq__inner {
+    justify-content: center;
+  }
+
+  .presentation__key-title {
+    font-size: 95px;
+  }
+
+  .contacts__inner::before {
+    width: 400px;
+  }
+}
+
+@media (max-width: 900px) {
+  .features__info-title {
+    font-size: 71px;
+    line-height: 42px;
+  }
+
+  .features__info-subtitle {
+    margin-bottom: 0;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .features__cutat-text {
+    font-size: 15px;
+    line-height: 100.6%;
+  }
+
+  .features__box-cutat {
+    height: auto;
+  }
+
+  .features__inner-info {
+    margin-bottom: 10px;
+  }
+
+  .packges__inner {
+    left: 40px;
+  }
+}
+
+@media (max-width: 800px) {
+  .something__top-title {
+    font-size: 60px;
+    line-height: 45px;
+  }
+
+  .something__top-subtitle {
+    font-size: 30px;
+  }
+
+  .something__top-text {
+    font-size: 15px;
+  }
+
+  .something__inner-item::before {
+    display: none;
+  }
+
+  .something__item-title {
+    font-size: 30px;
+  }
+
+  .something__item-text {
+    font-size: 17px;
+  }
+
+  .presentation__key-title {
+    font-size: 65px;
+    line-height: 70px;
+  }
+
+  .presentation__key-text {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 640px) {
+  .features__inner-box {
+    display: none;
+  }
+
+  .stories__slider-title {
+    font-size: 62px;
+    line-height: 64px;
+  }
+
+  .stories__slider-subtitle {
+    font-size: 20px;
+  }
+
+  .stories__slider-text {
+    font-size: 19px;
+  }
+}
+
+@media (max-width: 500px) {
+  .features__inner {
+    top: 50px;
+    right: 10px;
+  }
+
+  .features__info-text {
+    max-width: 300px;
+    font-size: 14px;
+  }
+
+  .features__info-title {
+    font-size: 49px;
+  }
+
+  .features__info-subtitle {
+    font-size: 15px;
+  }
+
+  .packges__inner {
+    left: 10px;
+    max-width: 282px;
+  }
+
+  .packges__inner-subtitle::after {
+    display: none;
+  }
+
+  .packges__inner-title {
+    font-size: 50px;
+  }
+
+  .presentation__inner-btn {
+    max-width: 250px;
+  }
+
+  .presentation__key-title {
+    font-size: 35px;
+    line-height: 70px;
+  }
+
+  .presentation__key-text {
+    font-size: 20px;
+  }
+
+  .key-fluid {
+    margin-bottom: 50px;
+  }
+
+  .something__top-title {
+    font-size: 50px;
+  }
+
+  .contacts__inner-social {
+    margin: 20px;
+  }
+
+  .footer__box-title {
+    font-size: 25px;
+  }
+}
